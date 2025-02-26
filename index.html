@@ -2,23 +2,22 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <link rel="icon" type="image/png" href="images/favicon.ico">
     <title>Flappy Bird Game</title>
     <link rel="stylesheet" href="style.css">
-    <script src="script.js" defer></script>
 </head>
 <body>
     <div class="background"></div>
-    <img src="images/Bird.png" alt="invalid.img" class="bird" id="bird-1">
+    <img src="images/Bird.png" alt="bird" class="bird" id="bird-1">
     <div class="message">
-        Enter To Start Game <P><span style="color:red">&nwArr;</span>ArrowUp
-        to Control</P>
+        <p class="desktop-instructions">Press Enter to Start<br>Use Space or ↑ to Control</p>
+        <p class="mobile-instructions">Tap to Start<br>Tap Screen to Fly</p>
         <div class="score">
-            <span class="score_title">
-            </span>
+            <span class="score_title"></span>
             <span class="score_val"></span>
         </div>
     </div>
+    <script src="script.js"></script>
 </body>
 </html>
